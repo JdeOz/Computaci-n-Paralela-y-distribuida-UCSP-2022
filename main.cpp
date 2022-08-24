@@ -63,11 +63,9 @@ int main() {
         total1 += times1[e];
         total2 += times2[e];
     }
-    cout << total1 / tests << " " << total2 / tests << endl;
+    cout << "Caso 1: " << total1 / tests << endl << "Caso 2: " << total2 / tests << endl;
 
     double dif = (total2 - total1);
-    double prom = (total2 + total1)/2;
-    cout << (dif/prom)*100 << endl;
-
-
+    double prom = (total2 + total1) / 2;
+    cout << "Diferencia porcentual: " << (dif / prom) * 100 << "%" << endl;
 }
