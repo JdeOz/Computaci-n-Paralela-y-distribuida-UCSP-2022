@@ -18,7 +18,7 @@ Respuesta A.
 
 # Pregunta 6
 Si usamos bloques cuadrados con la cantidad máxima de subprocesos (1024) esto significa
-que nuestras dimenciones serain de 32x32.
+que nuestras dimenciones serían de 32x32.
 - Al dividir 400/32 nos resulta 12.5 osea 13.
 - Al dividir 900/32 nos resulta 28.125 osea 29.
 Esto nos resulta una cuadrícula de 13x29 lo que nos daria 416x928 threads.
@@ -49,4 +49,4 @@ siempre irían sincronizadas.
 
 # Pregunta 11
 Si nos dice que su dispositivo permite hasta 512 threads por bloque entonces no es
-posible usar bloques de 32x32 ya que expeden al límite.
+posible usar bloques de 32x32 ya que exeden el límite.
